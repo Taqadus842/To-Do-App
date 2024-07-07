@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="box">
+        <div class="background">
+            <img src="./back-icon.png" id="back-icon" alt="back">
+            <h3 id="nameElement"></h3> <!-- Corrected HTML for nameElement -->
+            <p>You have <span id="taskNo">0</span> tasks now</p>
+        </div>
+        <br>
+
+        <form id="taskForm">
+            <input id="taskInput" type="text" placeholder="Add a task">
+            <button id="submitTask" type="submit">Add</button> 
+        </form>
+        <br>
+        <div id="taskList"></div>
+   </div> 
+   <script src="./mainPage.js"></script>
+</body>
+</html>
